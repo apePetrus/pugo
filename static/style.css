@@ -1,12 +1,13 @@
 body {
 	font-family: sans-serif ;
-	background: #110000 ;
+	background-image: url("/starsoldweb.gif") ;
 	color: #ccc ;
 }
 
 main {
 	max-width: 800px ;
 	margin: auto ;
+    background: #110000 ;
 }
 
 img {
@@ -18,6 +19,9 @@ header h1 {
 }
 
 footer {
+	max-width: 800px ;
+	margin: auto ;
+    background: #110000 ;
 	text-align: center ;
 	clear: both ;
 }
