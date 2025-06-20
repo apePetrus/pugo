@@ -7,7 +7,7 @@ body {
 main {
 	max-width: 800px ;
 	margin: auto ;
-    background: #110000 ;
+    background: #25064c;
 }
 
 img {
@@ -21,7 +21,7 @@ header h1 {
 footer {
 	max-width: 800px ;
 	margin: auto ;
-    background: #110000 ;
+    background: #25064c;
 	text-align: center ;
 	clear: both ;
 }
