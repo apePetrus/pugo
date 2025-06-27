@@ -1,7 +1,11 @@
+a:visited {
+    color: #e37fca;
+}
+
 body {
 	font-family: sans-serif ;
 	background-image: url("/gifs/starsoldweb.gif") ;
-	color: #ccc ;
+	color: #eee;
 }
 
 main {
