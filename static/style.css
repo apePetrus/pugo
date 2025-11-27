@@ -8,6 +8,12 @@ body {
 	color: #eee;
 }
 
+header {
+	max-width: 800px ;
+	margin: auto ;
+    /* background: #25064c; */
+}
+
 main {
 	max-width: 800px ;
 	margin: auto ;
@@ -30,24 +36,48 @@ footer {
 	clear: both ;
 }
 
-/* For TAGLIST.HTML */
-.taglist {
-	text-align: center ;
-	clear: both ;
+/* NAVIGATION */
+
+.site-nav {
+	display: flex;
+    background: #25064c;
 }
 
-/* For NEXTPREV.HTML */
-#nextprev {
-	/* The container for both the previous and next articles. */
+.site-nav a {
+	display: block;
+	padding: 1rem;
 }
-#prevart {
-	float: left ;
-	text-align: left ;
+
+.site-nav .logo {
+	font-weight: bold;
+	padding-left: 0;
 }
-#nextart {
-	float: right ;
-	text-align: right ;
+
+.main-menu {
+	display: flex;
+	list-style: none;
+	margin: 0;
+	padding: 0;
 }
-#nextart,#prevart {
-	max-width: 33% ;
+
+@media screen and (max-width: 48rem) {
+	.site-nav,
+	.main-menu {
+		flex-direction: column;
+	}
+
+	.site-nav a {
+		padding: 0.5rem;
+		padding-left: 0;
+	}
+}
+
+/* LISTS */
+
+.post-snippet {
+	margin-bottom: 1rem;
+}
+
+.post-snippet h3 {
+	margin-bottom: 0.25rem;
 }
