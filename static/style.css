@@ -13,10 +13,14 @@ header {
 	margin: auto ;
 }
 
-main {
+.content {
 	max-width: 800px ;
 	margin: auto ;
     background: #25064c;
+}
+
+.content > * {
+	margin: 1rem;
 }
 
 img {
