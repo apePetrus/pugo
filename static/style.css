@@ -11,7 +11,6 @@ body {
 header {
 	max-width: 800px ;
 	margin: auto ;
-    /* background: #25064c; */
 }
 
 main {
@@ -46,6 +45,7 @@ footer {
 .site-nav a {
 	display: block;
 	padding: 1rem;
+	margin-left: 1rem;
 }
 
 .site-nav .logo {
