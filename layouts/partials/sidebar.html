@@ -1,0 +1,14 @@
+<aside class="sidebar">
+    <div class="sidebar-header">
+        <a href="{{ "/" | relURL }}">{{ .Site.Title }}</a>
+    </div>
+    <nav class="sidebar-nav">
+        <ul>
+            {{ range .Site.Menus.main }}
+            <li>
+                <a href="{{ .URL | relURL }}">{{ .Name }}</a>
+            </li>
+            {{ end }}
+        </ul>
+    </nav>
+</aside>

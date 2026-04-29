@@ -15,3 +15,23 @@ languageCode = 'en-us'
   nextprev = true
   taglist = true
   showrss = true
+
+[[menu.main]]
+  name = "Home"
+  url = "/"
+  weight = 1
+
+[[menu.main]]
+  name = "Posts"
+  url = "/posts"
+  weight = 2
+
+[[menu.main]]
+  name = "Shrines"
+  url = "/shrines"
+  weight = 3
+
+[[menu.main]]
+  name = "About me"
+  url = "/about"
+  weight = 4
